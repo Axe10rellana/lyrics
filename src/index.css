@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* CUSTOM PROPERTIES */
+:root {
+  /*paleta de colores*/
+  --color-01: #ffffff;
+  --color-02: #e9ebee;
+  --color-03: #a4b0be;
+  --color-04: #6b7c8e;
+  --color-05: #343a40;
+  --color-06: #000000;
+  --color-07: #f6e58d;
+  --color-08: #efd81d; /*amarillo de javascript*/
+  --color-09: #cf649a; /*rosa de sass*/
+  --color-10: #ff3e00; /*naranja de svelte*/
+  --color-11: #dc3545; /*danger de bootstrap*/
+  --color-12: #c3002f; /*rojo de angular*/
+  --color-13: #a5d8ff;
+  --color-14: #61dafb; /*azul de react*/
+  --color-15: #7bed9f;
+  --color-16: #42b983; /*verde de vue*/
+  --color-17: #128c7e; /*verde de whatsapp*/
+  --color-18: #7e12f9; /*violeta de bootstrap*/
+  --color-19: #2496ed; /*azul de docker*/
+  --color-20: #1877f2;
+  --color-21: #003f8c;
+  --color-22: #022144;
+  --color-23: #2b3a42; /*azul negro de webpack*/
+  --color-24: #273443; /*azul negro de react*/
+  --color-25: #282c34;
+}
+
+/* Active Navigation Link */
+.active {
+  @apply text-cyan-500;
+}
+
+.active svg {
+  @apply text-cyan-500;
+}
+
+.bar:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.bar:nth-child(3) {
+  animation-delay: 0.4s;
+}
+.bar:nth-child(4) {
+  animation-delay: 0.6s;
+}
+.bar:nth-child(5) {
+  animation-delay: 0.8s;
+}
+.bar:nth-child(6) {
+  animation-delay: 1s;
+}
+
+.smooth-transition {
+  transition: all 0.3s ease-in-out;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hide-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
