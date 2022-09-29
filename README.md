@@ -16,12 +16,11 @@ Código base del proyecto Lyriks Hecho en React.js, React Router Dom, Redux y Ta
 
 ---
 
-<!-- ## Enlace A La Aplicación
+## Enlace A La Aplicación
 
-- [Django Crud Auth](https://django-crud-auth-q731.onrender.com/)
+- [Lyriks](https://lyrics-chi.vercel.app/)
 
 ---
- -->
 
 ## Comandos
 
