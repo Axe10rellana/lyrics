@@ -22,8 +22,25 @@ Código base del proyecto Lyriks Hecho en React.js, React Router Dom, Redux y Ta
 
 ---
 
+## Hecho con
+
+### JS Library
+- [React](https://react.dev/)
+
+### For routing
+- [React Router Dom](https://reactrouter.com/en/main)
+
+### For state management
+- [Redux Toolkit](https://redux-toolkit.js.org/)
+
+### For styles
+- [Tailwind CSS](https://tailwindcss.com/)
+
+---
+
 ## Comandos
 
+- npm i
 - npm run dev
 - npm run build
 
@@ -45,3 +62,9 @@ Código base del proyecto Lyriks Hecho en React.js, React Router Dom, Redux y Ta
 - Post CSS
 - Tailwind CSS
 - Vite
+
+---
+
+## Autor
+
+- Website - [Axe10rellana](https://axe10rellana.github.io/portafolio/portafolio/)
