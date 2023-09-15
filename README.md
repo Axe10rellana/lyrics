@@ -31,6 +31,7 @@ Código base del proyecto Lyriks Hecho en React.js, React Router Dom, Redux y Ta
 - [React Router Dom](https://reactrouter.com/en/main)
 
 ### For state management
+- [React Redux](https://react-redux.js.org/)
 - [Redux Toolkit](https://redux-toolkit.js.org/)
 
 ### For styles
